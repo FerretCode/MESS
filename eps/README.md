@@ -14,3 +14,7 @@ The EPS design files
 -   [ ] PCB
 
 # Part Selection
+
+## Attributions
+
+-   [Battery Contact PCB](https://codeberg.org/buildacubesat-project/bac-structure) from the Build a CubeSat project

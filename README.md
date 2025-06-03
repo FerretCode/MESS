@@ -42,3 +42,4 @@ A modular bus system for building emissions sensing hardware. Built to be launch
 ## Inspiration
 
 -   Much of the structure and subsystems are influenced by Manuel from Build a CubeSat on YouTube.
+-   Thanks to RG SAT for his detailed walkthrough of his EPS

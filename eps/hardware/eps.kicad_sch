@@ -1,0 +1,1176 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c3008a62-3f93-44d6-ac6c-3e783bffd7ae")
+	(paper "A4")
+	(title_block
+		(title "MESS EPS")
+		(date "2025-06-02")
+		(rev "r1")
+	)
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDDA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDDA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDDA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 95.25 91.44)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 61f3c954-5fe3-41e4-ae19-5500358e6539)
+	)
+	(text "Solar Input\n"
+		(exclude_from_sim no)
+		(at 18.034 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "0931c645-42d7-4323-839b-f972e90b42a2")
+	)
+	(junction
+		(at 50.8 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b02ce8-d4e9-4584-84c8-35d9435a3625")
+	)
+	(junction
+		(at 50.8 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d16d532-2bb5-4523-b1ed-46541eafa957")
+	)
+	(junction
+		(at 50.8 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4018e1ac-7e65-4f4d-9e8c-9e2b54d27652")
+	)
+	(junction
+		(at 50.8 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a50efef-c3d4-416f-befe-f5e255baddd7")
+	)
+	(junction
+		(at 48.26 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63465ec7-d92f-4ecc-b572-d10b367318f1")
+	)
+	(junction
+		(at 48.26 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "880c2779-ecfb-429a-81a6-300e4604b2c7")
+	)
+	(junction
+		(at 52.07 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0dbc43f-c38f-4e90-a6d6-169b120304c5")
+	)
+	(junction
+		(at 50.8 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7c6ec57-a6ea-48bb-b014-a8e256f33b6d")
+	)
+	(junction
+		(at 48.26 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0e5ef3f-bbd3-4639-a2f1-b2bb8a515abe")
+	)
+	(junction
+		(at 48.26 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5a821ad-75d7-4e9f-97ba-a5a56796e200")
+	)
+	(wire
+		(pts
+			(xy 52.07 26.67) (xy 52.07 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e167426-23e9-47a9-a2c6-d2f4e2e53c3d")
+	)
+	(wire
+		(pts
+			(xy 48.26 36.83) (xy 48.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f06cade-349c-46b7-9c5b-6ea470165f10")
+	)
+	(wire
+		(pts
+			(xy 48.26 71.12) (xy 48.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b39e790-8a06-4ef6-9dbc-d402867f503a")
+	)
+	(wire
+		(pts
+			(xy 59.69 77.47) (xy 50.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2348c903-4713-4652-9098-a6adb94381f4")
+	)
+	(wire
+		(pts
+			(xy 48.26 31.75) (xy 52.07 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c428e5d-c43b-4fc5-94c6-30bfe97ca950")
+	)
+	(wire
+		(pts
+			(xy 50.8 36.83) (xy 59.69 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3693bf4d-d11e-4d66-9851-869784380278")
+	)
+	(wire
+		(pts
+			(xy 50.8 67.31) (xy 50.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436c2811-bc4d-45e2-a242-428388ddd68b")
+	)
+	(wire
+		(pts
+			(xy 52.07 31.75) (xy 52.07 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f96582-e5b6-443d-83ee-4b280b32be37")
+	)
+	(wire
+		(pts
+			(xy 45.72 67.31) (xy 50.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5054f4ca-8402-4f49-a423-fb5fb0ebd412")
+	)
+	(wire
+		(pts
+			(xy 50.8 57.15) (xy 50.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a82fa7-955d-47a3-bd0e-311660091d2a")
+	)
+	(wire
+		(pts
+			(xy 54.61 71.12) (xy 48.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a36b7e0-d6ab-41d8-a1f2-40d0d5f00e92")
+	)
+	(wire
+		(pts
+			(xy 59.69 46.99) (xy 54.61 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603a97d2-4774-43a1-8d3e-d1f8d2dc059a")
+	)
+	(wire
+		(pts
+			(xy 45.72 26.67) (xy 50.8 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6466cb02-0202-4ccd-ae85-65c03eabc4cf")
+	)
+	(wire
+		(pts
+			(xy 54.61 52.07) (xy 48.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67765228-c47f-49dc-ac78-3e2225010478")
+	)
+	(wire
+		(pts
+			(xy 50.8 26.67) (xy 50.8 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8d09ed-0cbf-46db-a7ea-9960bebc4347")
+	)
+	(wire
+		(pts
+			(xy 45.72 36.83) (xy 48.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e85e909-1521-42bb-b55c-3aaa362b1420")
+	)
+	(wire
+		(pts
+			(xy 45.72 77.47) (xy 48.26 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947e608b-c897-4141-b293-1fad9ca2c1f4")
+	)
+	(wire
+		(pts
+			(xy 50.8 77.47) (xy 50.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c09d834-1277-4b68-88ef-1ba41b47bac9")
+	)
+	(wire
+		(pts
+			(xy 54.61 67.31) (xy 54.61 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a114254d-3b34-4b54-95d0-f96787490d88")
+	)
+	(wire
+		(pts
+			(xy 48.26 77.47) (xy 48.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1433b91-2d8b-4620-a817-123555d759f7")
+	)
+	(wire
+		(pts
+			(xy 59.69 26.67) (xy 52.07 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd89686-2ed1-4573-acf6-1ae021d9565f")
+	)
+	(wire
+		(pts
+			(xy 48.26 52.07) (xy 48.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bb6149-523d-419c-95f3-b75f51601075")
+	)
+	(wire
+		(pts
+			(xy 50.8 36.83) (xy 50.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25f9080-e706-424d-991b-b1ca0eb43fc9")
+	)
+	(wire
+		(pts
+			(xy 48.26 36.83) (xy 48.26 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fc3259-91fa-4b25-a730-deaa09efb5cd")
+	)
+	(wire
+		(pts
+			(xy 54.61 46.99) (xy 54.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8481336-be2f-40a2-b3cf-3195b2c222b9")
+	)
+	(wire
+		(pts
+			(xy 45.72 46.99) (xy 50.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c953d698-aec2-4c3e-9c68-75a8381d7c03")
+	)
+	(wire
+		(pts
+			(xy 50.8 57.15) (xy 59.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ad54a8-5101-4425-8d05-44c9b23ae547")
+	)
+	(wire
+		(pts
+			(xy 59.69 67.31) (xy 54.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f7a813-2fd1-4971-a888-33e82a600599")
+	)
+	(wire
+		(pts
+			(xy 50.8 46.99) (xy 50.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4f6477-780a-450b-8612-ce79cab79d52")
+	)
+	(wire
+		(pts
+			(xy 45.72 57.15) (xy 48.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbbf74a-fe63-4ade-9454-300bfddb1e9b")
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 52.07 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "818faa8e-6f9d-46dc-a297-ee8387b3f668")
+		(property "Reference" "#PWR01"
+			(at 52.07 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V+"
+			(at 52.07 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 52.07 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5c922b1-a7d6-4100-85c2-5e731f15be96")
+		)
+		(instances
+			(project ""
+				(path "/c3008a62-3f93-44d6-ac6c-3e783bffd7ae"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba614d57-667e-4a77-a876-06828f4c45e0")
+		(property "Reference" "#PWR02"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19092420-0099-463f-b700-3545d7d5e9dd")
+		)
+		(instances
+			(project ""
+				(path "/c3008a62-3f93-44d6-ac6c-3e783bffd7ae"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 66.04)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25051191-62a6-401d-9d60-3fcf04fe0b58")
+		(property "Sheetname" "solar_connector2"
+			(at 21.59 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar_connector.kicad_sch"
+			(at 21.59 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V-" input
+			(at 45.72 67.31 0)
+			(uuid "17f14981-d220-4ba7-9803-b1a23d61862d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V+" input
+			(at 45.72 77.47 0)
+			(uuid "db2c1c20-4751-4793-89c9-4a16dabfee9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "eps"
+				(path "/c3008a62-3f93-44d6-ac6c-3e783bffd7ae"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 45.72)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30b9d4bf-41af-4179-8f39-6660591a15e9")
+		(property "Sheetname" "solar_connector1"
+			(at 21.59 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar_connector.kicad_sch"
+			(at 21.59 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V-" input
+			(at 45.72 46.99 0)
+			(uuid "da116169-48f8-4aa5-b05a-0ef46a7896b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V+" input
+			(at 45.72 57.15 0)
+			(uuid "ca6f5a8c-5cc9-4cfa-b69f-39148d470d91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "eps"
+				(path "/c3008a62-3f93-44d6-ac6c-3e783bffd7ae"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 25.4)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a5e5b2a-9588-4401-bdab-8a874c133434")
+		(property "Sheetname" "solar_connector"
+			(at 21.59 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar_connector.kicad_sch"
+			(at 21.59 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V-" input
+			(at 45.72 26.67 0)
+			(uuid "2382abc2-0538-48ec-87e0-9a4b4e7ab173")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V+" input
+			(at 45.72 36.83 0)
+			(uuid "b281185b-a3ce-41f9-b6b9-303d1d6f3ad0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "eps"
+				(path "/c3008a62-3f93-44d6-ac6c-3e783bffd7ae"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 66.04)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54bac476-aaf3-4729-ac68-7536ed779f01")
+		(property "Sheetname" "solar_connector5"
+			(at 59.69 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar_connector.kicad_sch"
+			(at 59.69 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V-" input
+			(at 59.69 77.47 180)
+			(uuid "5265a94d-1b2b-4876-ac68-b4958d86db76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V+" input
+			(at 59.69 67.31 180)
+			(uuid "551c2365-d7f7-461c-8148-ec1adb491240")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "eps"
+				(path "/c3008a62-3f93-44d6-ac6c-3e783bffd7ae"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 45.72)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6501fa88-9cef-4364-b2f2-8498cccae028")
+		(property "Sheetname" "solar_connector4"
+			(at 59.69 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar_connector.kicad_sch"
+			(at 59.69 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V-" input
+			(at 59.69 57.15 180)
+			(uuid "e887b22a-da4e-402b-8b4c-cce75123391b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V+" input
+			(at 59.69 46.99 180)
+			(uuid "f74846c4-dd30-4c96-9241-2105ab6d8afd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "eps"
+				(path "/c3008a62-3f93-44d6-ac6c-3e783bffd7ae"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 35.56)
+		(size 30.48 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70efd6ee-9c64-49e5-bca3-39bd93be4a6e")
+		(property "Sheetname" "mppt"
+			(at 135.89 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mppt.kicad_sch"
+			(at 135.89 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eps"
+				(path "/c3008a62-3f93-44d6-ac6c-3e783bffd7ae"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 25.4)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f7e1b7b-9a46-4990-8fb7-33ecca84a00a")
+		(property "Sheetname" "solar_connector3"
+			(at 59.69 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar_connector.kicad_sch"
+			(at 59.69 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V-" input
+			(at 59.69 36.83 180)
+			(uuid "72234214-3743-4116-9895-730a46be151f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V+" input
+			(at 59.69 26.67 180)
+			(uuid "64c0bb5a-3784-4b59-a9f7-34a77784778c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "eps"
+				(path "/c3008a62-3f93-44d6-ac6c-3e783bffd7ae"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

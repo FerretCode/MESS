@@ -640,12 +640,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V+"
-			(at 52.07 17.78 0)
+		(property "Value" "VIN"
+			(at 54.61 21.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
